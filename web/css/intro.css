@@ -1,0 +1,63 @@
+h2{
+    color:#2e2e2e;
+    font-family:Gasalt;
+}
+
+.fila1 p{
+    font-family: Microsoft New Tai Lue;
+    font-size: 24px;
+    text-align: justify;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#intro .fila1{
+    text-align: center;
+    font-size: 25px;
+}
+
+#intro .fila2{
+    text-align: center;
+}
+
+
+@media (min-width: 1024px){
+    #intro .contenedor{
+        display: flex;
+        flex-wrap: wrap;
+        }
+    
+    #intro .fila1{
+        width: 45%;
+        text-align: center;
+        margin-top: 40px;
+        font-size: 35px;
+    }
+    
+    #intro h2{
+        font-size: 60px;
+    }
+    
+    #intro .fila2{
+        width:50%;
+        float: right;
+        margin-top: 40px
+    }
+}
+
+@media (max-width:480px){
+    #intro .fila1{
+        font-size: 18px;
+    }
+    
+    #intro .fila2{
+        display: none;
+    }
+    
+    .fila1 p{
+        font-size: 15px;
+        text-align: justify;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
